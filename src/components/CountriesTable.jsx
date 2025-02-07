@@ -3,6 +3,7 @@ import DataTable, { createTheme } from "react-data-table-component";
 import axios from "axios";
 
 const CountriesTable = () => {
+  console.log("changes in demo");
   const [countries, setCountries] = useState([]);
   const [search, setSearch] = useState([]);
   //   we store all the data in countries state variable then now, we not touch it, so we make new.....
