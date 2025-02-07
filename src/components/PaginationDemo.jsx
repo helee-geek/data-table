@@ -37,7 +37,6 @@ const PaginationDemo = () => {
   );
 
 
-  
   const getData = async () => {
     try {
       setLoading(true);
