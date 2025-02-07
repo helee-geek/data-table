@@ -36,7 +36,11 @@ const PaginationDemo = () => {
     "dark"
   );
 
+  console.log("asas");
+  console.log("afrdgas");
+  console.log("asasdfdf");
 
+  
   const getData = async () => {
     try {
       setLoading(true);
