@@ -52,6 +52,7 @@ const PaginationDemo = () => {
       setLoading(false);
     }
   };
+  console("3rd");
 
   useEffect(() => {
     getData(); 
