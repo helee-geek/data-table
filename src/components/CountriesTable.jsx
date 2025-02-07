@@ -9,6 +9,8 @@ const CountriesTable = () => {
   //   we store all the data in countries state variable then now, we not touch it, so we make new.....
   const [filteredCoutries, setFilterCountries] = useState([]);
 
+  console.log("1st");
+  
   createTheme(
     "solarized",
     {
@@ -29,7 +31,8 @@ const CountriesTable = () => {
     },
     "dark"
   );
-
+  console.log("2nd");
+  
   const getCoutries = async () => {
     try {
       const response = await axios.get("https://restcountries.com/v2/all");
