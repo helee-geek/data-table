@@ -14,7 +14,7 @@ const PaginationDemo = () => {
   const [startDate, setStartDate] = useState(new Date("2009-01-31"));
   const [endDate, setEndDate] = useState(new Date("2025-01-31"));
   const [filteredData, setFilteredData] = useState([]);
-  console("1st");
+
   createTheme(
     "solarized",
     {
@@ -35,7 +35,7 @@ const PaginationDemo = () => {
     },
     "dark"
   );
-  console("2nd");
+
 
   const getData = async () => {
     try {
@@ -52,7 +52,7 @@ const PaginationDemo = () => {
       setLoading(false);
     }
   };
-  console("3rd");
+
 
   useEffect(() => {
     getData(); 
